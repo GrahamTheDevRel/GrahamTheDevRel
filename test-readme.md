@@ -1,1 +1,1 @@
-<img src="readme/twitter.svg" width="19.4%" height=120><img src="readme/linkedin.svg" width="19.5%" height=120><img src="readme/logo.svg" width="22%" height=120><img src="readme/youtube.svg" width="19.5%" height=120><img src="readme/twitch.svg" width="19.5%" height=120>
+<img src="readme/twitter.svg" width="19.5%" height=120><img src="readme/linkedin.svg" width="19.5%" height=120><img src="readme/logo.svg" width="22%" height=120><img src="readme/youtube.svg" width="19.5%" height=120><img src="readme/twitch.svg" width="19.5%" height=120>
