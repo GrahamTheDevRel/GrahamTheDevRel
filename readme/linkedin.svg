@@ -29,7 +29,11 @@
                     display: block;
                     float: none;
                 }
-                
+
+		.light{
+		    display: none;	    
+		}
+		    
                 .text{
                     margin: 0 5px 0 -5px;
                     padding: 0;
@@ -39,6 +43,8 @@
                     line-height: 65px;
                     font-size: 15px;
                 }
+
+		    
                 
                 @container (width > 155px){
                     
@@ -61,14 +67,20 @@
 		    	.text{
 				color: #333;
 		    	}
-		    
+		    	.light{
+			    display: block;	    
+			}
+		    	.dark{
+			    display: none;
+		    	}
 		    }
                 
                 
             </style>
             <div class="container">
                 <div class="box">
-                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' id='Layer_1' x='0px' y='0px' style='enable-background:new 0 0 60 60' version='1.1' viewBox='0 0 60 60'%3E%3Cstyle%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23333%7D %3C/style%3E%3Cpath d='M44.6 32.3v12.6h-6.2V34.4c0-2.8-1-4.4-3.3-4.4-2.5 0-3.8 1.6-3.8 4.4V45h-5.9V25h6v2.8s1.7-3.3 6-3.3c4.2 0 7.2 2.6 7.2 7.9zM22 18.7c0 2-1.6 3.7-3.6 3.7s-3.6-1.7-3.6-3.7 1.6-3.7 3.6-3.7 3.6 1.7 3.6 3.7z' class='st0'/%3E%3Crect width='6.16' height='19.89' x='15.33' y='24.98' class='st0'/%3E%3C/svg%3E"/>
+                <img class="dark" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' id='Layer_1' x='0px' y='0px' style='enable-background:new 0 0 60 60' version='1.1' viewBox='0 0 60 60'%3E%3Cstyle%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23ffc6ac%7D %3C/style%3E%3Cpath d='M44.6 32.3v12.6h-6.2V34.4c0-2.8-1-4.4-3.3-4.4-2.5 0-3.8 1.6-3.8 4.4V45h-5.9V25h6v2.8s1.7-3.3 6-3.3c4.2 0 7.2 2.6 7.2 7.9zM22 18.7c0 2-1.6 3.7-3.6 3.7s-3.6-1.7-3.6-3.7 1.6-3.7 3.6-3.7 3.6 1.7 3.6 3.7z' class='st0'/%3E%3Crect width='6.16' height='19.89' x='15.33' y='24.98' class='st0'/%3E%3C/svg%3E"/>
+                <img class="light" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' id='Layer_1' x='0px' y='0px' style='enable-background:new 0 0 60 60' version='1.1' viewBox='0 0 60 60'%3E%3Cstyle%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23333%7D %3C/style%3E%3Cpath d='M44.6 32.3v12.6h-6.2V34.4c0-2.8-1-4.4-3.3-4.4-2.5 0-3.8 1.6-3.8 4.4V45h-5.9V25h6v2.8s1.7-3.3 6-3.3c4.2 0 7.2 2.6 7.2 7.9zM22 18.7c0 2-1.6 3.7-3.6 3.7s-3.6-1.7-3.6-3.7 1.6-3.7 3.6-3.7 3.6 1.7 3.6 3.7z' class='st0'/%3E%3Crect width='6.16' height='19.89' x='15.33' y='24.98' class='st0'/%3E%3C/svg%3E"/>
                 <p class="text">LinkedIn</p>
                 </div>    
             </div>
