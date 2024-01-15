@@ -10,7 +10,7 @@
                     height: 120px;
                     box-sizing: border-box;
                     opacity: 0;
-                    animation: fadeIn 1.5s linear 2s forwards;
+                    animation: fadeIn 1s linear 2s forwards;
                 }
                 
                 @keyframes fadeIn{
