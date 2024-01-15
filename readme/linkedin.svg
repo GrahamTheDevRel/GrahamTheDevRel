@@ -9,6 +9,17 @@
                     background-color: #0d1117;
                     height: 120px;
                     box-sizing: border-box;
+                    opacity: 0;
+                    animation: fadeIn 1.5s linear 2s forwards;
+                }
+                
+                @keyframes fadeIn{
+                    0%{
+                        opacity: 0;
+                    }
+                    100%{
+                        opacity: 1;
+                    }
                 }
                 
                 .box{
