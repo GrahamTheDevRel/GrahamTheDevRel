@@ -86,7 +86,14 @@
 		    	}
 		    }
                 
-                
+                @media (prefers-reduced-motion: reduce){
+			.container{
+				animation: none!important;
+                    		opacity: 1;
+		    	}
+		}
+
+		    
             </style>
             <div class="container">
                 <div class="box">
