@@ -13,7 +13,7 @@
                         align-items: center;
                         justify-content: center;
                         opacity: 0;
-                        animation: fadeIn 1.2s linear 1s forwards;
+                        animation: fadeIn 1.2s linear 1.3s forwards;
                     }
 
                     @keyframes fadeIn {
