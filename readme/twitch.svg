@@ -93,8 +93,8 @@
                 </style>
                 <div class="container">
                     <div class="box">
-                        <svg id="svg" viewBox="0 0 60 60">
-                            <path d="m14 14 5 8 6 9 1 1-1 2-2 1-2 2-2 3-3 4-2 2h2l2-2 2-2 3-4 2-2 1-1v-1h1a456 456 0 0 0 9 12h10l-9-12-4-7 4-5 2-2 1-1 1-1 2-3 1-1h-3l-3 4-1 1-1 1-1 2h-1l-2 3h-1l-4-6-4-5h-9m4 2 2 3 14 21 3 4h5l-6-8-10-14-4-6h-5 1" style="fill-rule:evenodd;clip-rule:evenodd;" />
+                        <svg id="svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" y="0px" style="enable-background:new 0 0 60 60" viewBox="0 0 60 60">
+                            <path d="m14 14 5 8 6 9 1 1-1 2-2 1-2 2-2 3-3 4-2 2h2l2-2 2-2 3-4 2-2 1-1v-1h1a456 456 0 0 0 9 12h10l-9-12-4-7 4-5 2-2 1-1 1-1 2-3 1-1h-3l-3 4-1 1-1 1-1 2h-1l-2 3h-1l-4-6-4-5h-9m4 2 2 3 14 21 3 4h5l-6-8-10-14-4-6h-5 1" style="fill-rule:evenodd;clip-rule:evenodd;"/>
                         </svg>
                         <p class="text">Twitch</p>
                     </div>
