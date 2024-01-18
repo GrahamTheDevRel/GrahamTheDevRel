@@ -63,6 +63,7 @@
                     @container (width > 150px) {
                         .text {
                             display: block;
+                            min-width: 90px;
                         }
                     }
 
