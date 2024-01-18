@@ -1,103 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" style="width: 100%;" height="120">
-    <foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-                .container {
-                    font-family: 'Verdana';
-                    container-type: inline-size;
-                    width: 100%;
-                    background-color: #0d1117;
-                    height: 120px;
-                    box-sizing: border-box; 
-		    opacity: 0;
-                    animation: fadeIn 1s linear 1.8s forwards;
-                }
-                
-                @keyframes fadeIn{
-                    0%{
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" style="width: 100%;" height="120">
+        <foreignObject width="100%" height="100%">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <style>
+                    .container {
+                        font-family: 'Verdana';
+                        container-type: inline-size;
+                        width: 100%;
+                        background-color: #0d1117;
+                        height: 120px;
+                        box-sizing: border-box;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         opacity: 0;
+                        animation: fadeIn 1.2s linear 1s forwards;
                     }
-                    100%{
-                        opacity: 1;
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
                     }
-                }
-                
-                .box{
-                    margin: 22.5px 6px;
-                    background-color: #2c093a;
-                    float: left;
-                    border-radius: 15px;
-                    box-shadow: 0px 0px 6px 3px rgba(122,8,78,1);
-                    border: 1px solid #e0288d;
-                    box-sizing: border-box;
-                    height: 65px;
-                    width: calc(100% - 12px);
-                }
-                
-                img{
-                    width: 65px;
-                    margin: 0px auto;
-                    display: block;
-                    float: none;
-                }
-
-		 .light{
-		    display: none;	    
-		 }
-                
-                .text{
-                    margin: 0 5px 0 -5px;
-                    padding: 0;
-                    display: none;
-                    color: #ffc6ac;
-                    float: left;
-                    line-height: 65px;
-                    font-size: 15px;
-                    margin-left: -10px;
-                }
-                
-                @container (width > 150px){
-                    
-                    img{
-                        float: left;
+                    .box {
+                        box-sizing: border-box;
+                        background-color: #2c093a;
+                        border-radius: 15px;
+                        box-shadow: 0px 0px 6px 3px rgba(122, 8, 78, 1);
+                        border: 1px solid #e0288d;
+                        height: 65px;
+                        width: calc(90%);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
-                    .text{
-                        display: block;
+                    #svg {
+                        width: 100%;
+                        max-width: 65px;
+                        margin: 0px display: block;
                     }
-                    
-                }
-
-		  @media (prefers-color-scheme: light){
-			.container{
-				background-color: #fff;
-		    	}
-			.box{
-				background-color: #eee;
-		    	}
-		    	.text{
-				color: #333;
-		    	}
-		    	.light{
-				display: block;	    
-			}
-		    	.dark{
-				display: none;
-		    	}
-		}
-                @media (prefers-reduced-motion: reduce){
-			.container{
-				animation: none!important;
-                    		opacity: 1;
-		    	}
-		}
-
-                
-            </style>
+                    #svg path {
+                        fill: #ffc6ac;
+                    }
+                    .text {
+                        margin: 0 10% 0 0;
+                        padding: 0;
+                        display: none;
+                        color: #ffc6ac;
+                        line-height: 65px;
+                        font-size: 1em;
+                        flex-grow: 1;
+                        text-align: center;
+                    }
+                    @container (width > 150px) {
+                        .text {
+                            display: block;
+                        }
+                    }
+                    @media (prefers-color-scheme: light) {
+                        .container {
+                            background-color: #fff;
+                        }
+                        .box {
+                            background-color: #eee;
+                        }
+                        .text {
+                            color: #333;
+                        }
+                        #svg path {
+                            fill: #333;
+                        }
+                    }
+                    @media (prefers-reduced-motion: reduce) {
+                        .container {
+                            animation: none !important;
+                            opacity: 1;
+                        }
+                    }
+                </style>
             <div class="container">
                 <div class="box">
-                	<img class="dark" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' x='0px' y='0px' style='enable-background:new 0 0 60 60' viewBox='0 0 60 60'%3E%3Cpath d='m14 14 5.4 8 6 8.7.8 1-.4.4-1 1.3-1.6 1.9-1.8 2-2 2.4-3.7 4.2-1.7 2-.2.3h2.7l1.5-1.7 1.9-2.2a12227.2 12227.2 0 0 0 5-5.8l1.1-1.3.7-.8.7-.8A989.5 989.5 0 0 1 36 46l.1.1h9.5a2359.1 2359.1 0 0 0-12.9-18.8l4.4-5 2-2.4a39.6 39.6 0 0 1 2.1-2.5l2.1-2.5 1.2-1.3h-2.8l-.6.7-2.8 3.2a58.3 58.3 0 0 0-2.5 2.9 224.1 224.1 0 0 1-1.6 2l-2 2.3-.8.7-4.1-6-4-5.9h-9.6l.2.3m3.7 2 2 2.8L34.4 40l3 4.3h4.3l-5.6-8c-3-4.5-7.5-10.8-9.9-14.2l-4.3-6.2h-4.3' style='fill-rule:evenodd;clip-rule:evenodd;fill:%23ffc6ac'/%3E%3C/svg%3E" alt=""/>
-                	<img class="light"  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' x='0px' y='0px' style='enable-background:new 0 0 60 60' viewBox='0 0 60 60'%3E%3Cpath d='m14 14 5.4 8 6 8.7.8 1-.4.4-1 1.3-1.6 1.9-1.8 2-2 2.4-3.7 4.2-1.7 2-.2.3h2.7l1.5-1.7 1.9-2.2a12227.2 12227.2 0 0 0 5-5.8l1.1-1.3.7-.8.7-.8A989.5 989.5 0 0 1 36 46l.1.1h9.5a2359.1 2359.1 0 0 0-12.9-18.8l4.4-5 2-2.4a39.6 39.6 0 0 1 2.1-2.5l2.1-2.5 1.2-1.3h-2.8l-.6.7-2.8 3.2a58.3 58.3 0 0 0-2.5 2.9 224.1 224.1 0 0 1-1.6 2l-2 2.3-.8.7-4.1-6-4-5.9h-9.6l.2.3m3.7 2 2 2.8L34.4 40l3 4.3h4.3l-5.6-8c-3-4.5-7.5-10.8-9.9-14.2l-4.3-6.2h-4.3' style='fill-rule:evenodd;clip-rule:evenodd;fill:%23333'/%3E%3C/svg%3E" alt=""/>
-                	<p class="text">X / Twitter</p>
+                	<svg id="svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" y="0px" style="enable-background:new 0 0 60 60" viewBox="0 0 60 60">
+                            <path d="m14 14 5 8 6 9 1 1-1 2-2 1-2 2-2 3-3 4-2 2h2l2-2 2-2 3-4 2-2 1-1v-1h1a456 456 0 0 0 9 12h10l-9-12-4-7 4-5 2-2 1-1 1-1 2-3 1-1h-3l-3 4-1 1-1 1-1 2h-1l-2 3h-1l-4-6-4-5h-9m4 2 2 3 14 21 3 4h5l-6-8-10-14-4-6h-5 1" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+                        </svg>
+			<p class="text">X / Twitter</p>
                 </div>    
             </div>
         </div>
